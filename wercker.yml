@@ -34,7 +34,7 @@ push-to-releases:
     - internal/docker-push:
         username: creepkiller
         password: dldydgml2@
-        repository: creepkiller/m-oke-jpetstore
+        repository: docker.io/creepkiller/m-oke-jpetstore
         tag: v01
         working-dir: /pipeline/source/apache-tomcat-7.0.96/
         ports: "8080"
